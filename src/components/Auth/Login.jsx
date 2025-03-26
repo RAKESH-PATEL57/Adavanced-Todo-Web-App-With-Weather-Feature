@@ -19,7 +19,7 @@ function Login() {
     <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-md-6">
-          <div className="card">
+          <div className="card log-in-container">
             <div className="card-header">Login</div>
             <div className="card-body">
               <form onSubmit={handleSubmit}>
@@ -45,9 +45,11 @@ function Login() {
                     required
                   />
                 </div>
-                <button type="submit" className="btn btn-primary">Login</button>
+                <div className="btn-container">
+                    <button type="submit" className="btn btn-primary">Login</button>
+                </div>
               </form>
-              <p className="mt-3 text-muted small">
+              <p className="login-btm-txt">
                 This is a mock login. Enter any username and password.
               </p>
             </div>

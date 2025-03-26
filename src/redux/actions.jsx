@@ -1,3 +1,5 @@
+
+
 // Authentication actions
 export const login = (username, password) => {
   // Simple mock authentication

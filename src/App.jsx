@@ -26,9 +26,9 @@ function App() {
   if (loading) {
     return (
       <div className="loading-screen">
-        <h1 className="glitch" data-text="INITIALIZING">INITIALIZING</h1>
+        {/* <h1 className="glitch" data-text="INITIALIZING">INITIALIZING</h1> */}
         <div className="loading-bar"></div>
-        <p className="loading-text">Loading System...</p>
+        <p className="loading-text">Loading ...</p>
       </div>
     );
   }
