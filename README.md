@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a comprehensive React-based To-Do application with advanced features including API integration, state management with Redux, responsive design, and user authentication.
+This application offers a comprehensive task management system, allowing users to effortlessly add, view, delete, and prioritize tasks. It also integrates real-time weather information, fetching live data to provide weather updates relevant to tasks. Designed with a mobile-first approach, the application ensures a seamless and consistent user experience across all devices
 
 ## Live Demo [link](https://advanced-todo-weather-feature.netlify.app/)
 
